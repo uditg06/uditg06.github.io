@@ -28,8 +28,8 @@ const SideBar = () => (
       </p>
       <p>
         I am passionate about digital products, strategy, design, and product management.
-        I firmly believe that technology can transform people&ldquo;s lives for good.
-        I have Healthcare, Travel, Telecom, and Banking domain experience.
+        I firmly believe that technology can transform people&apos;s lives for good.
+        I have Healthcare, Travel, and Banking domain experience.
       </p>
       <ul className="actions">
         <li>
@@ -40,7 +40,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Udit Garg <Link to="/">uditgarg.com</Link>.</p>
+      <p className="copyright">&copy; Udit Garg <Link to="/">gargudit.com</Link>.</p>
     </section>
   </section>
 );

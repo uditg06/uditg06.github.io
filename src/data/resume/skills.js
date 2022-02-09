@@ -12,12 +12,12 @@ const skills = [
     category: ['Product Skills'],
   },
   {
-    title: 'Feature Prioritization',
+    title: 'Leadership Skills',
     competency: 5,
     category: ['Product Skills'],
   },
   {
-    title: 'Leadership Skills',
+    title: 'Feature Prioritization',
     competency: 5,
     category: ['Product Skills'],
   },
@@ -61,30 +61,19 @@ const skills = [
     competency: 5,
     category: ['Product Skills', 'Programming/ Applications'],
   },
-
-  {
-    title: 'API Development and Integration',
-    competency: 5,
-    category: ['Misc'],
-  },
-  {
-    title: 'Microservices',
-    competency: 5,
-    category: ['Misc'],
-  },
   {
     title: 'Java',
     competency: 5,
     category: ['Programming/ Applications'],
   },
   {
-    title: 'Spring',
+    title: 'API Development and Integration',
     competency: 5,
     category: ['Programming/ Applications'],
   },
   {
-    title: 'Hibernate',
-    competency: 4,
+    title: 'Microservices',
+    competency: 5,
     category: ['Programming/ Applications'],
   },
   {
@@ -98,13 +87,13 @@ const skills = [
     category: ['Programming/ Applications'],
   },
   {
-    title: 'SQL Developer',
+    title: 'Spring',
     competency: 5,
     category: ['Programming/ Applications'],
   },
   {
-    title: 'Denodo',
-    competency: 3,
+    title: 'SQL Developer',
+    competency: 5,
     category: ['Programming/ Applications'],
   },
   {
@@ -113,8 +102,18 @@ const skills = [
     category: ['Programming/ Applications'],
   },
   {
-    title: 'SOAP UI',
-    competency: 3,
+    title: 'JSON',
+    competency: 5,
+    category: ['Programming/ Applications'],
+  },
+  {
+    title: 'GIT',
+    competency: 5,
+    category: ['Programming/ Applications'],
+  },
+  {
+    title: 'SVN',
+    competency: 5,
     category: ['Programming/ Applications'],
   },
   {
@@ -133,6 +132,11 @@ const skills = [
     category: ['Programming/ Applications'],
   },
   {
+    title: 'Hibernate',
+    competency: 4,
+    category: ['Programming/ Applications'],
+  },
+  {
     title: 'HTML',
     competency: 4,
     category: ['Programming/ Applications'],
@@ -144,12 +148,7 @@ const skills = [
   },
   {
     title: 'JavaScript',
-    competency: 4,
-    category: ['Programming/ Applications'],
-  },
-  {
-    title: 'JSON',
-    competency: 5,
+    competency: 3,
     category: ['Programming/ Applications'],
   },
   {
@@ -173,18 +172,18 @@ const skills = [
     category: ['Programming/ Applications'],
   },
   {
-    title: 'Maven',
+    title: 'SOAP UI',
     competency: 3,
     category: ['Programming/ Applications'],
   },
   {
-    title: 'GIT',
-    competency: 5,
+    title: 'Denodo',
+    competency: 2,
     category: ['Programming/ Applications'],
   },
   {
-    title: 'SVN',
-    competency: 5,
+    title: 'Maven',
+    competency: 3,
     category: ['Programming/ Applications'],
   },
   {
@@ -207,7 +206,6 @@ const skills = [
     competency: 5,
     category: ['Programming/ Applications'],
   },
-
   {
     title: 'Windows',
     competency: 5,
@@ -223,7 +221,6 @@ const skills = [
     competency: 3,
     category: ['Operating System'],
   },
-
   {
     title: 'Englsih',
     competency: 5,
@@ -240,17 +237,17 @@ const skills = [
 // this is a list of colors that I like. The length should be == to the
 // number of categories. Re-arrange this list until you find a pattern you like.
 const colors = [
+  '#64cb7b',
   '#6968b3',
+  '#e47272',
   '#37b1f5',
+  '#747fff',
+  '#cc7b94',
   '#40494e',
   '#515dd4',
-  '#e47272',
-  '#cc7b94',
   '#3896e2',
   '#c3423f',
   '#d75858',
-  '#747fff',
-  '#64cb7b',
 ];
 
 const categories = [
